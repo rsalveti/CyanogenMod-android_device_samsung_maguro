@@ -22,3 +22,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/maguro/bluetooth
 # Use the part that is common between all tunas
 include device/samsung/tuna/BoardConfig.mk
 
+TARGET_KERNEL_UBUNTU := true
+TARGET_KERNEL_UBUNTU_META := linux-image-maguro
+TARGET_KERNEL_UBUNTU_SERIES := saucy
